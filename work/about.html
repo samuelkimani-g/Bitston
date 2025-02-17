@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .icon {
+            font-size: 2rem;
+            color: #e67e22;
+        }
+        .circular-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            transition: transform 0.3s ease;
+        }
+        .circular-img:hover {
+            transform: scale(1.1);
+        }
+        .vertical-card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .vertical-card img:hover {
+            transform: scale(1.05);
+        }
+        .nav {
+            padding: 10px;
+        }
+        .nav .nav-link {
+            color: black;
+        }
+        .nav .nav-link:hover {
+            color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+    </li>
+    </ul>
+
+    <div class="text-center my-4">
+        <h1 class="text-black">Welcome to The Biston Restaurant/h1>
+        <p class="lead">Experience delicious meals and a cozy atmosphere!</p>
+    </div>
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img src="/images/expert.jpeg" alt="Chef Special" class="circular-img">
+                <h5>Our Expert Chef</h5>
+                <p>Discover exclusive dishes crafted by our top chefs.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/images/signature.jpg" alt="Fresh Ingredients" class="circular-img">
+                <h5>Fresh Ingredients</h5>
+                <p>We use only the freshest ingredients for every dish.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/images/dinner.jpeg" alt="Cozy Dining" class="circular-img">
+                <h5>Cozy Dining</h5>
+                <p>Enjoy a comfortable and welcoming dining experience.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row g-4">
+            <div class="col-12 d-flex vertical-card">
+                <a href="breakfast.html"><img src="/images/breakfast.jpg" alt="Breakfast"></a>
+                <div class="p-3 flex-fill">
+                    <i class="bi bi-egg-fried icon"></i>
+                    <h5>Breakfast</h5>
+                    <p>Start your day with our delicious breakfast options.</p>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row-reverse vertical-card">
+                <a href="lunch.html"><img src="/images/lunch.jpeg" alt="Lunch"></a>
+                <div class="p-3 flex-fill">
+                    <i class="bi bi-cup-straw icon"></i>
+                    <h5>Lunch</h5>
+                    <p>Satisfy your hunger with our tasty lunch dishes.</p>
+                </div>
+            </div>
+            <div class="col-12 d-flex vertical-card">
+                <a href="dinner.html"><img src="/images/dinner.jpeg" alt="Dinner"></a>
+                <div class="p-3 flex-fill">
+                    <i class="bi bi-emoji-smile icon"></i>
+                    <h5>Dinner</h5>
+                    <p>End your day with our delicious dinner options.</p>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row-reverse vertical-card">
+                <a href="dessert.html"><img src="/images/dessert2.jpeg" alt="Dessert"></a>
+                <div class="p-3 flex-fill">
+                    <i class="bi bi-cake icon"></i>
+                    <h5>Desserts</h5>
+                    <p>Indulge in our delightful dessert collection.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="bg-body-tertiary text-center">
+      <div class="container p-4 pb-0">
+          <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+              </a>
+  
+              <!-- Twitter -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+  
+              <!-- Google -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#">
+                  <i class="fa-brands fa-google"></i>
+              </a>
+  
+              <!-- Instagram -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+  
+              <!-- LinkedIn -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+  
+              <!-- GitHub -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+          </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright: <a class="text-body" href="index.html">The Biston.com</a>
+      </div>
+  </footer>
+  
+</body>
+</html>

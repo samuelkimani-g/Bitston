@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <style>
+        .nav {
+            padding: 10px;
+        }
+        .nav .nav-link {
+            color: black;
+        }
+        .nav .nav-link:hover {
+            color: #e67e22;
+        }
+        .menu-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .menu-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .table-container {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .table th {
+            background-color: #d35400 !important;
+            color: white;
+        }
+        .table-hover tbody tr:hover {
+            background-color: #f5f5f5;
+            transform: scale(1.01);
+            transition: all 0.3s ease;
+        }
+        .icon {
+            color: #e67e22;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+    </ul>
+
+    <!-- Page Heading -->
+    <div class="container text-center mt-4">
+        <h1 class="text-black">🍰 Dessert Menu</h1>
+        <p class="lead">Indulge in our heavenly dessert options!</p>
+    </div>
+
+    <!-- Dessert Images -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/images/dessert.jpeg" alt="Delicious Dessert" class="menu-img">
+            </div>
+            <div class="col-md-6">
+                <img src="/images/dessert2.jpeg" alt="Sweet Treats" class="menu-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Dessert Menu Table -->
+    <div class="container table-container">
+        <table class="table table-hover text-center table-striped">
+            <thead>
+                <tr>
+                    <th>Dessert Item</th>
+                    <th>Price (KES)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="bi bi-cake icon"></i>Chocolate Lava Cake</td>
+                    <td>KES 1,200</td>
+                </tr>
+                <tr>
+                    <td><i class="bi bi-ice-cream icon"></i>Vanilla Bean Ice Cream</td>
+                    <td>KES 850</td>
+                </tr>
+                <tr>
+                    <td><i class="bi bi-cup-straw icon"></i>Strawberry Cheesecake</td>
+                    <td>KES 1,500</td>
+                </tr>
+                <tr>
+                    <td><i class="bi bi-cookie icon"></i>Macaron Selection</td>
+                    <td>KES 950</td>
+                </tr>
+                <tr>
+                    <td><i class="bi bi-heart icon"></i>Classic Tiramisu</td>
+                    <td>KES 1,300</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Signature Dessert -->
+    <div class="container text-center mt-5">
+        <h2 class="text-black">⭐ Signature Dessert</h2>
+        <p class="lead">Our luxurious **Molten Chocolate Soufflé** is a must-try!</p>
+        <img src="/images/choko.jpeg" alt="Signature Molten Chocolate Soufflé" class="menu-img">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="bg-body-tertiary text-center">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+    
+                <!-- Twitter -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+    
+                <!-- Google -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+    
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+    
+                <!-- LinkedIn -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+    
+                <!-- GitHub -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2025 Copyright: <a class="text-body" href="index.html">The Biston.com</a>
+        </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <style>
+         .nav-logo {
+           width: 120px;
+           height: auto;
+           max-height: 80px; 
+        }
+
+         .navbar-nav .nav-link {
+           font-size: 1.1rem;
+           padding: 10px 15px;
+           transition: color 0.3s ease-in-out;
+        }
+
+         .navbar-nav .nav-link:hover {
+           color: #28a745 !important;
+        }
+        .card {
+            transition: transform 0.3s ease;
+            height: 100%;
+            max-width: 700px;
+            margin: auto;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+            transition: filter 0.3s ease;
+        }
+        .card-img-top:hover {
+            filter: brightness(70%);
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light py-3">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="/images/preview.png" alt="Logo" class="nav-logo me-2">
+            <span class="fs-4 fw-bold text-dark">The Biston</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex ms-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+    <div class="text-center my-4">
+        <h1>Welcome to The Biston Restaurant</h1>
+        <p class="lead">Experience the best dining with delicious meals and cozy atmosphere.</p>
+    </div>
+
+    <div class="container">
+        <div class="row flex-column">
+            <div class="col mb-4">
+                <div class="card w-100">
+                    <a href="breakfast.html">
+                        <img src="/images/breakfast.jpg" class="card-img-top" alt="Breakfast">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Breakfast Menu</h5>
+                      <p class="card-text">- Pancakes with syrup<br>- Scrambled eggs with toast<br>- Fresh fruit platter<br>- Coffee, tea, and juices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card w-100">
+                    <a href="lunch.html">
+                        <img src="/images/lunch.jpeg" class="card-img-top" alt="Lunch">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Lunch Menu</h5>
+                      <p class="card-text">- Grilled chicken sandwich<br>- Caesar salad<br>- Beef burger with fries<br>- Iced tea, soda, and water</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card w-100">
+                    <a href="dinner.html">
+                        <img src="/images/dinner.jpeg" class="card-img-top" alt="Dinner">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Dinner Menu</h5>
+                      <p class="card-text">- Steak with mashed potatoes<br>- Pasta Alfredo<br>- Grilled salmon<br>- Wine, beer, and soft drinks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card w-100">
+                    <a href="dessert.html">
+                        <img src="/images/dessert2.jpeg" class="card-img-top" alt="Dessert">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Dessert Menu</h5>
+                      <p class="card-text">- Chocolate cake<br>- Cheesecake<br>- Ice cream sundae<br>- Fresh fruit tart</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="bg-body-tertiary text-center">
+      <div class="container p-4 pb-0">
+          <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+              </a>
+  
+              <!-- Twitter -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+  
+              <!-- Google -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#">
+                  <i class="fa-brands fa-google"></i>
+              </a>
+  
+              <!-- Instagram -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+  
+              <!-- LinkedIn -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+  
+              <!-- GitHub -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+          </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright: <a class="text-body" href="index.html">The Biston.com</a>
+      </div>
+  </footer>
+
+</body>
+</html>
